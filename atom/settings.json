@@ -1,0 +1,133 @@
+{
+	"activate-power-mode": {
+		"autoToggle": false,
+		"particles": {
+			"colours": {},
+			"size": {},
+			"spawnCount": {},
+			"totalCount": {}
+		},
+		"screenShake": {}
+	},
+	"core": {
+		"allowPendingPaneItems": false,
+		"automaticallyUpdate": false,
+		"customFileTypes": {
+			"source.ini": [
+				".buckconfig",
+				".flowconfig"
+			],
+			"source.json": [
+				".arcconfig",
+				"BUCK.autodeps"
+			],
+			"source.python": [
+				"BUCK"
+			]
+		},
+		"disabledPackages": [
+			"atom-typescript",
+			"haskell-grammar",
+			"tool-bar"
+		],
+		"excludeVcsIgnoredPaths": false,
+		"telemetryConsent": "no",
+		"themes": [
+			"one-dark-ui",
+			"chester-atom-syntax"
+		]
+	},
+	"editor": {
+		"fontFamily": "FiraCode-Retina",
+		"fontSize": 13,
+		"invisibles": {},
+		"scrollPastEnd": true
+	},
+	"elmjutsu": {
+		"autocompleteEnabled": true,
+		"autocompleteSnippetsEnabled": true,
+		"cacheDirectory": "/var/folders/85/gst6y4fs5rdbd7mqv0d5g56h0000gn/T/elmjutsu13556zssyayJ02WUJ",
+		"hyperclickEnabled": true,
+		"sidekickPosition": "right",
+		"sidekickSize": 300
+	},
+	"exception-reporting": {
+		"userId": "66eb92f9-594e-dbf3-0cfb-725d95888fe6"
+	},
+	"file-icons": {
+		"forceShow": true,
+		"tabPaneIcon": false
+	},
+	"file-watcher": {
+		"promptWhenFileHasChangedOnDisk": false
+	},
+	"highlight-selected": {
+		"hideHighlightOnSelectedWord": true,
+		"onlyHighlightWholeWords": false
+	},
+	"ide-purescript": {},
+	"language-elm": {
+		"autocompleteEnabled": false,
+		"elmOraclePath": "/Users/burak/.nvm/versions/node/v6.4.0/bin/elm-oracle"
+	},
+	"linter": {
+		"showErrorPanel": false
+	},
+	"nuclide": {
+		"installRecommendedPackages": true,
+		"nuclide-distraction-free-mode": {},
+		"nuclide-flow": {},
+		"nuclide-format-js": {
+			"aliases": [
+				"Immutable",
+				"immutable",
+				"fbt",
+				"fbt",
+				"Component",
+				"React",
+				"PropTypes"
+			]
+		},
+		"nuclide-home": {
+			"showHome": false
+		},
+		"nuclide-working-sets": {
+			"workingSets": [
+				{
+					"name": "Temenni",
+					"uris": [
+						"/Users/burak/Projects/adphorus/temenni-app"
+					],
+					"active": true
+				}
+			]
+		},
+		"use": {
+			"nuclide-blame": false,
+			"nuclide-blame-provider-hg": false,
+			"nuclide-blame-ui": false,
+			"nuclide-bookshelf": false,
+			"nuclide-buck": false,
+			"nuclide-clang-atom": false,
+			"nuclide-debugger-hhvm": false,
+			"nuclide-debugger-lldb-client": false,
+			"nuclide-diff-view": false
+		}
+	},
+	"pigments": {
+		"extendAutocompleteToColorValue": true,
+		"extendAutocompleteToVariables": true,
+		"markerType": "dot"
+	},
+	"sync-settings": {},
+	"tool-bar": {
+		"position": "Bottom",
+		"visible": false
+	},
+	"tree-view": {
+		"hideVcsIgnoredFiles": true
+	},
+	"welcome": {
+		"showOnStartup": false
+	}
+}
